@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <meta charset="utf-8">
+    <title>MEDALITH LUZ MUÑOZ ACHAHUI</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <div class="contenedor">
+          <img class="menu-icon" src="imagenes/menu.png" alt="">
+          <p class="logo"></p>
+        </div>
+      </div>
+
+      <div class="contenedor-titulo">
+        <h1>Medalith Luz Muñoz Achahui</h1>
+      </div>
+
+
+    </header>
+    <main>
+
+    <section id="sobre-mi">
+      <div class="contenedor">
+        <h3>Sobre mi</h3>
+        <div class="contenedor-sobremi">
+          <div class="computadoras">
+            <img src="imagenes/imagen principal.jpg">
+          </div>
+          <div class="texto">
+            <p>
+              <strong>EDAD:</strong> 20 | 
+              <strong>CARRERA:</strong> ING. de Sistemas e Informática | 
+              <strong>SEMESTRE:</strong> 7mo
+          </p>
+            <p>Soy una estudiante Ingeniero de sistemas e informática 
+              con pasión por la tecnología. Me gusta descubrir 
+              nuevas ideas, aprender constantemente. </p>
+              <video controls width="200">
+                <source src="imagenes/video_p.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+              </video>
+              <video controls width="200">
+                <source src="imagenes/video_2.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+              </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="trabajos">
+      <div class="contenedor">
+        <h3>Que me gusta</h3>
+        <div class="contenedor-servicios">
+          <div class="servicio violeta">
+            <h4>MUSICA</h4>
+            <p>Me gusta varios generos de musica como el trap argentino, 
+              reggaeton, etc </p>
+              <a href="imagenes/musica.png"></a>
+          </div>
+          <div class="servicio celeste">
+            <h4>Dormir</h4>
+            <p>La mayor parte del tiempo me la paso durmiendo :p </p>
+          </div>
+          <div class="servicio violeta">
+            <h4>Ver tik tok</h4>
+            <p>Cuando estoy aburrida no tengo mucho que 
+              hacer mato el tiempo viendo tik tok</p>
+          </div>
+          <div class="servicio celeste">
+            <h4>La lluvia</h4>
+            <p>Mi clima favorito es cuando esta lluviendo y
+              si es de noche mejor </p>
+          </div>
+          <div class="servicio violeta">
+            <h4>Viajar</h4>
+            <p>Me gusta viajar y conocer nuevos 
+              lugares, perderme entre la naturaleza</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+  <script src="owl/owl.carousel.min.js"></script>
+  <script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+  })
+  </script>
+
+  <script>
+
+  $(document).ready(function(){
+
+
+  $('.menu-icon').click(function(){
+    $('header nav').slideToggle();
+  })
+
+  })
+
+
+
+  </script>
+
+
+  </body>
+
+</html>
