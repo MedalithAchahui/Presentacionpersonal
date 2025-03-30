@@ -122,6 +122,8 @@ h3 {
 .servicio p {
   margin-bottom: 20px;
   height: 194px;
+  display: flex;
+  align-items: center;
 }
 
 .contenedor-servicios .violeta {
